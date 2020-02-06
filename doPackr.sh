@@ -8,5 +8,5 @@ go run main.go -i ${datasetsPath}
 
 templatesPackrFile=$(cd ${templatesPath}; ls | grep "\-packr.go")
 datasetsPackrFile=$(cd ${datasetsPath}; ls | grep "\-packr.go")
-sed -i '' '/.go\"/d' ${templatesPath}/${templatesPackrFile}
-sed -i '' '/.go\"/d' ${datasetsPath}/${datasetsPackrFile}
+sed -i '/.go\"/d' ${templatesPath}/${templatesPackrFile}
+sed -i '/.go\"/d' ${datasetsPath}/${datasetsPackrFile}
