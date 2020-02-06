@@ -7,20 +7,20 @@
     <em>🎨 The adorable charts library for Golang.</em>
 </p>
 <p align="center">
-    <a href="https://travis-ci.org/go-echarts/go-echarts">
-        <img src="https://travis-ci.org/go-echarts/go-echarts.svg?branch=master" alt="Build Status">
+    <a href="https://travis-ci.org/lynic/go-echarts">
+        <img src="https://travis-ci.org/lynic/go-echarts.svg?branch=master" alt="Build Status">
     </a>
-    <a href="https://ci.appveyor.com/project/go-echarts/go-echarts">
+    <a href="https://ci.appveyor.com/project/lynic/go-echarts">
         <img src="https://ci.appveyor.com/api/projects/status/kdxi0s1nc1t6dqn0?svg=true" alt="Build Status">
     </a>
-    <a href="https://goreportcard.com/report/github.com/go-echarts/go-echarts">
-        <img src="https://goreportcard.com/badge/github.com/go-echarts/go-echarts" alt="Go Report Card">
+    <a href="https://goreportcard.com/report/github.com/lynic/go-echarts">
+        <img src="https://goreportcard.com/badge/github.com/lynic/go-echarts" alt="Go Report Card">
     </a>
     <a href="https://opensource.org/licenses/MIT">
         <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg" alt="MIT License">
     </a>
-        <a href="https://godoc.org/github.com/go-echarts/go-echarts">
-        <img src="https://godoc.org/github.com/go-echarts/go-echarts?status.svg" alt="GoDoc">
+        <a href="https://godoc.org/github.com/lynic/go-echarts">
+        <img src="https://godoc.org/github.com/lynic/go-echarts?status.svg" alt="GoDoc">
     </a>
 </p>
 
@@ -32,7 +32,7 @@
 ### 🔰 安装
 
 ```shell
-$ go get -u github.com/go-echarts/go-echarts/...
+$ go get -u github.com/lynic/go-echarts/...
 ```
 
 ### ✨ 特性
@@ -97,7 +97,7 @@ $ go get -u github.com/go-echarts/go-echarts/...
 
 运行 example/main.go 可预览所有示例
 ```shell
-$ cd your/gopath/src/github.com/go-echarts/go-echarts/example
+$ cd your/gopath/src/github.com/lynic/go-echarts/example
 $ go build .
 $ ./example
 ```

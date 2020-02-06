@@ -7,7 +7,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/go-echarts/go-echarts/charts"
+	"github.com/lynic/go-echarts/charts"
 )
 
 const (
