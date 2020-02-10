@@ -42,6 +42,9 @@
         zAxis3D: {{ .ZAxis3D }},
         grid3D: {{ .Grid3D }},
     {{- end }}
+    {{- if .HasGrid }}
+        grid: {{ .GridOptsList }},
+    {{- end }}
         series: [
         {{ range .Series }}
         {{- . }},

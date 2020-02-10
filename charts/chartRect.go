@@ -7,6 +7,8 @@ import (
 type rectCharter interface {
 	markRectChart()
 	exportSeries() Series
+	exportXAxisOpts() []XAxisOpts
+	exportYAxisOpts() []YAxisOpts
 }
 
 // XYAxis represent the X and Y axis in the rectangular coordinate.
@@ -102,4 +104,15 @@ func (rc *RectChart) validateOpts() {
 func (rc *RectChart) Render(w ...io.Writer) error {
 	rc.validateOpts()
 	return renderToWriter(rc, "chart", []string{}, w...)
+}
+
+// exportXAxisOpts exports XAxisOpts
+func (rc *RectChart) exportXAxisOpts() []XAxisOpts {
+	rc.XAxisOptsList[0].Data = rc.xAxisData
+	return rc.XAxisOptsList
+}
+
+// exportYAxisOpts exports XAxisOpts
+func (rc *RectChart) exportYAxisOpts() []YAxisOpts {
+	return rc.YAxisOptsList
 }

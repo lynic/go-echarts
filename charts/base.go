@@ -1,8 +1,9 @@
 package charts
 
 import (
-	"github.com/lynic/go-echarts/datatypes"
 	"regexp"
+
+	"github.com/lynic/go-echarts/datatypes"
 )
 
 type globalOptser interface {
@@ -137,6 +138,7 @@ type BaseOpts struct {
 	HasRadar      bool // 图形是否拥有 Radar 组件
 	HasParallel   bool // 图形是否拥有 Parallel 组件
 	HasSingleAxis bool // 图形是否拥有 singleAxis 组件
+	HasGrid       bool // 图形是否拥有 grid 组件
 }
 
 // 设置全局颜色
